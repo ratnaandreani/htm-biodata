@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 960px;
+    width: 100%;
+}
+
+.table tr td {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.table tr td:first-child{
+    font-weight: 700;
+}
+
+.right img {
+    border-radius: 1rem;
+}
